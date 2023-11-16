@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+</head>
+
+<body>
+    <h1>User Form</h1>
+    <form action="" method="post">
+        <p><label for="usr_nm">Username : </label>
+            <input type="text" name="usr_name" id="usr_nm" placeholder="Enter Username" required>
+        </p>
+        <p>
+            <label for="usr_pwd">Password : </label>
+            <input type="password" name="usr_pwd" id="usr_pwd" placeholder="Enter Password" required>
+        </p>
+        <p>
+            <label for="usr_email">Email : </label>
+            <input type="email" name="usr_email" id="usr_email" placeholder="Enter Email" required> 
+        </p>
+        <p>
+            <label for="male">Male : </label> 
+            <input type="radio" name="gen" id="male">
+        </p>
+            <label for="female">female : </label> 
+            <input type="radio" name="gen" id="female">
+        </p>
+            <label for="Others">Others</label> 
+            <input type="radio" name="gen" id="Others">
+        </p>
+        <button type="submit"> Submit </button>
+    </form>
+</body>
+
+</html>
