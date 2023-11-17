@@ -1,0 +1,13 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  .aqua{
+    color: aqua;
+  }
+  .first_blog ,.second_blog ,.header{
+    background-color: #909090;
+  }
+  .heading{
+    color: rgb(24, 118, 57)
+  }
