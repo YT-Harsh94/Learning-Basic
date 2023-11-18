@@ -1,0 +1,20 @@
+input[type = "text"]{
+    color: red;
+    background-color: aqua;
+    padding: 0.4em;
+    border-radius: 20px;
+}
+input[type="password"]{
+   border-radius: 20px;
+   padding: 0.4em;
+   background-color: aqua;
+}
+/* a[href*="google"]{
+    color: rgb(255, 0, 0);
+} */
+/* a[href^="h"]{
+    color: cadetblue;
+} */
+a[href$=".com"]{
+  color: red;
+}
