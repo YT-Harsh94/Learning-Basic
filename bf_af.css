@@ -8,3 +8,10 @@
 .cool::first-letter{
     font-size: x-large;
 }
+.main-heading::after{
+    content: "End.";
+    color: red;
+    border: 2px solid black;
+    padding: 4px;
+    margin: 3px;
+}
