@@ -1,0 +1,10 @@
+.cool::before{
+    content: "Hello, ";
+    color: red;
+    border: 2px solid black;
+    padding: 4px;
+    margin-right: 3px;
+}
+.cool::first-letter{
+    font-size: x-large;
+}
