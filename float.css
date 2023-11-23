@@ -1,0 +1,15 @@
+.flex::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 33%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1rem;
+    float: left;
+    border: 0.3rem solid black;
+    background-color: lightblue;
+}
